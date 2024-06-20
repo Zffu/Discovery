@@ -1,5 +1,6 @@
 package net.zffu.discovery.gui;
 
+import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 /**
@@ -15,5 +16,11 @@ public abstract class DiscoveryGUI {
      */
     public abstract ItemStack[] getItems();
 
+    /**
+     * Gets the display name of the GUI.
+     * @param player
+     * @return
+     */
+    public abstract String getDisplay(Player player);
 
 }
