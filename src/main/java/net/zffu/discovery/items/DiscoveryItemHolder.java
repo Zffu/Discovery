@@ -21,4 +21,12 @@ public class DiscoveryItemHolder {
         this.items = new ItemStack[slots];
     }
 
+    /**
+     * Gets the items contained in the holder.
+     * @return
+     */
+    public ItemStack[] getItems() {
+        return this.items;
+    }
+
 }
