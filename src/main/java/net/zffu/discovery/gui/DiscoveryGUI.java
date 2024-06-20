@@ -14,7 +14,7 @@ public abstract class DiscoveryGUI {
      * Gets the items of the GUI.
      * @return
      */
-    public abstract ItemStack[] getItems();
+    public abstract ItemStack[] getItems(Player player);
 
     /**
      * Gets the display name of the GUI.
@@ -22,5 +22,6 @@ public abstract class DiscoveryGUI {
      * @return
      */
     public abstract String getDisplay(Player player);
+
 
 }
